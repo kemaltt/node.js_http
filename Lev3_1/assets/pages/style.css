@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background:#F9E1A4;
+    height: 100vh;
+    padding: 10vh 10%;
+    
+}
+.hero_section{
+background-color: aqua;
+border-radius: 20px;
+padding: 2vh 0%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh 4%;
+}
+
+nav .nav_logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+nav ul a{
+    text-decoration: none;
+}
+.hero_section section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+
+}
+.hero_section section img{
+    width: 40%;
+}
